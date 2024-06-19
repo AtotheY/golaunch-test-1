@@ -1,0 +1,16 @@
+metadata:
+  template name: Test Repo
+  template description: A test repo for testing the parser
+  template github owner: https://github.com/AtotheY/
+
+fields:
+  - :
+    label: Repo Name
+    description: Name of the new repository
+    codeDefined: [[repoName]]
+    type: string
+  - :
+    label: Bot Name
+    description: Name of your AI bot
+    codeDefined: [[botName]]
+    type: string
