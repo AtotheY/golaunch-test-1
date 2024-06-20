@@ -1,1 +1,1 @@
-console.log('My name is [[botName]]')
+console.log("My name is {{botName}}");

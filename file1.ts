@@ -1,1 +1,1 @@
-console.log('Welcome to [[repoName]]')
+console.log("Welcome to {{repoName}}");
