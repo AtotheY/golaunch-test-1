@@ -7,10 +7,12 @@ fields:
   - :
     label: Repo Name
     description: Name of the new repository
-    codeDefined: [[repoName]]
+    codeDefined: "{{repoName}}"
     type: string
+    defaultValue: My Repo
   - :
     label: Bot Name
     description: Name of your AI bot
-    codeDefined: [[botName]]
+    codeDefined: "{{botName}}"
     type: string
+    defaultValue: George
