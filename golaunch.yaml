@@ -1,17 +1,15 @@
 metadata:
-  template name: Test Repo
-  template description: A test repo for testing the parser
-  template github owner: https://github.com/AtotheY/
+  template_name: Test Repo
+  template_description: A test repo for testing the parser
+  template_github_owner: https://github.com/AtotheY/
 
 fields:
-  - :
-    label: Repo Name
+  - label: Repo Name
     description: Name of the new repository
     codeDefined: "{{repoName}}"
     type: string
     defaultValue: My Repo
-  - :
-    label: Bot Name
+  - label: Bot Name
     description: Name of your AI bot
     codeDefined: "{{botName}}"
     type: string
